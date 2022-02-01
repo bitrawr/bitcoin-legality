@@ -1,0 +1,9 @@
+<h3 id="<%= country.abbr %>" href="/<%= country.name %>" class="country-legal">
+          <img class="sitemap-link-flag" src=<%=image_url("country-flags/#{country.abbr.downcase}.svg")%> alt=<%="#{country.name} Flag"%>>
+          <span class="country-title"><%= country.name.titleize.gsub("-", " ") %></span>
+          <div class=legality-status><%= show_svg('green-check.svg')%> Legal</div>
+          </h3>
+<div class="legal-description">
+  <p>Bitcoin was made <span class="orange-highlight">legal tender</span> in the country through the "Bitcoin Law", which was passed on 8 June 2021, and took effect on 7 September 2021.</p>
+  <p>One month on, more Salvadorans have Bitcoin wallets than traditional bank accounts, and the most popular bitcoin wallet—the government's officially-sponsored Chivo wallet—had been downloaded by three million people, approaching 46 percent of the population.</p>
+</div>

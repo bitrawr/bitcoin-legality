@@ -1,0 +1,9 @@
+<h3 id="<%= country.abbr %>" href="/<%= country.name %>" class="country-legal">
+          <img class="sitemap-link-flag" src=<%=image_url("country-flags/#{country.abbr.downcase}.svg")%> alt=<%="#{country.name} Flag"%>>
+          <span class="country-title"><%= country.name.titleize.gsub("-", " ") %></span>
+          <div class=legality-status><%= show_svg('green-check.svg')%> Legal / <%= show_svg('red-x.svg')%> Banking ban</div>
+          </h3>
+<div class="legal-description">
+  <p>The Authorite des Marches Financiers, the financial regulator in the province of Quebec, has declared that some bitcoin related business models, including exchanges and ATMs, are regulated under its current MSB Act.</p>
+<p>As of April 2018, the Bank of Montreal (BMO) announced that it would ban its credit and debit card customers from participating in cryptocurrency purchases with their cards. This is following another banking ban in Canada from Toronto Dominion (TD).</p>
+</div>

@@ -1,0 +1,9 @@
+<h3 id="<%= country.abbr %>" href="/<%= country.name %>" class="country-legal">
+          <img class="sitemap-link-flag" src=<%=image_url("country-flags/#{country.abbr.downcase}.svg")%> alt=<%="#{country.name} Flag"%>>
+          <span class="country-title"><%= country.name.titleize.gsub("-", " ") %></span>
+          <div class=legality-status><%= show_svg('red-x.svg')%> Illegal</div>
+          </h3>
+<div class="legal-description">
+  <p>Cryptocurrencies have been explicitly banned.</p>
+  <p>The BCB (Banco Central de Bolivia) issued the directive banning the use of “any kind of currency that is not issued and controlled by a government or an authorized entity” in 2014.</p>
+</div>

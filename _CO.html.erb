@@ -1,0 +1,9 @@
+<h3 id="<%= country.abbr %>" href="/<%= country.name %>" class="country-legal">
+          <img class="sitemap-link-flag" src=<%=image_url("country-flags/#{country.abbr.downcase}.svg")%> alt=<%="#{country.name} Flag"%>>
+          <span class="country-title"><%= country.name.titleize.gsub("-", " ") %></span>
+          <div class=legality-status><%= show_svg('green-check.svg')%> Legal / <%= show_svg('red-x.svg')%> Banking ban</div>
+          </h3>
+<div class="legal-description">
+<p>The use of cryptocurrencies has been increasing exponentially in Colombia and, as of now, the country has not issued any laws that regulates its treatment.</p>
+<p>The Financial Superintendence (Superintendencia Financiera de Colombia) in 2017 issued legislation in which it established that financial entities are not authorized to guard, invest, intermediate or operate with crypto assets.</p>
+</div>

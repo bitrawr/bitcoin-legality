@@ -1,0 +1,9 @@
+<h3 id="<%= country.abbr %>" href="/<%= country.name %>" class="country-legal">
+          <img class="sitemap-link-flag" src=<%=image_url("country-flags/#{country.abbr.downcase}.svg")%> alt=<%="#{country.name} Flag"%>>
+          <span class="country-title"><%= country.name.titleize.gsub("-", " ") %></span>
+          <div class=legality-status><%= show_svg('green-check.svg')%> Legal</div>
+          </h3>
+<div class="legal-description">
+  <p>Cryptocurrency is not explicitly prohibited in Jamaica because it is not specifically defined or regulated under Jamaica's legislative framework.</p>
+  <p>In July 2021, the Bank of Jamaica <a href="https://boj.org.jm/bank-of-jamaica-reminder-caution-on-cryptocurrencies/" target="_blank" rel="noopener noreferrer nofollow">released a statement</a> cautioning citizens that cryptocurrencies are not legal tender in Jamaica. Bank of Jamaica does not regulate or supervise these forms of digital currencies.</p>
+</div>

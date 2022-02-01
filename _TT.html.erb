@@ -1,0 +1,9 @@
+<h3 id="<%= country.abbr %>" href="/<%= country.name %>" class="country-legal">
+          <img class="sitemap-link-flag" src=<%=image_url("country-flags/#{country.abbr.downcase}.svg")%> alt=<%="#{country.name} Flag"%>>
+          <span class="country-title"><%= country.name.titleize.gsub("-", " ") %></span>
+          <div class=legality-status><%= show_svg('green-check.svg')%> Legal</div>
+          </h3>
+<div class="legal-description">
+  <p>While Bitcoin or other cryptocurrencies are not recognized as legal tender in Trinidad and Tobago, it is legal for citizens to buy, store, and sell them.</p>
+  <p>The Central Bank of Trinidad and Tobago <a href="https://www.ttsec.org.tt/wp-content/uploads/Is-Cryptocurrency-a-Security-1.pdf" target="_blank" rel="noopener noreferrer nofollow">released a statement</a> on January 25, 2019 clarifying that cryptocurrencies are neither regulated nor supervised by the government in Trinidad and Tobago.</p>
+</div>

@@ -1,0 +1,9 @@
+<h3 id="<%= country.abbr %>" href="/<%= country.name %>" class="country-legal">
+          <img class="sitemap-link-flag" src=<%=image_url("country-flags/#{country.abbr.downcase}.svg")%> alt=<%="#{country.name} Flag"%>>
+          <span class="country-title"><%= country.name.titleize.gsub("-", " ") %></span>
+          <div class=legality-status><%= show_svg('green-check.svg')%> Legal / <%= show_svg('red-x.svg')%> Banking ban</div>
+          </h3>
+<div class="legal-description">
+<p>In 2018, The Central Bank of Ecuador <a href="https://www.bce.fin.ec/index.php/boletines-de-prensa-archivo/item/1043-recordatorio-importante" target="_blank" rel="noopener noreferrer nofollow">has stated</a> that the purchase and sale of cryptocurrencies such as bitcoin are not forbidden.</p>
+<p>The CBE also reiterated that bitcoin is not an authorized means of payment for use in the country.</p>
+</div>

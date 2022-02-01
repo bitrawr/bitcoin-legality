@@ -1,0 +1,9 @@
+<h3 id="<%= country.abbr %>" href="/<%= country.name %>" class="country-legal">
+          <img class="sitemap-link-flag" src=<%=image_url("country-flags/#{country.abbr.downcase}.svg")%> alt=<%="#{country.name} Flag"%>>
+          <span class="country-title"><%= country.name.titleize.gsub("-", " ") %></span>
+          <div class=legality-status><%= show_svg('green-check.svg')%> Legal</div>
+          </h3>
+<div class="legal-description">
+  <p>As of 2017, the Israel Tax Authorities issued a statement saying that bitcoin and other cryptocurrencies would not fall under the legal definition of currency, and neither of that of a financial security, but of a taxable asset.</p>
+  <p>Each time a bitcoin is sold, the seller would have to pay a capital gains tax of 25%. Miners, traders of bitcoins would be treated as businesses and would have to pay corporate income tax as well as charge a 17% VAT.</p>
+</div>

@@ -1,0 +1,9 @@
+<h3 id="<%= country.abbr %>" href="/<%= country.name %>" class="country-legal">
+          <img class="sitemap-link-flag" src=<%=image_url("country-flags/#{country.abbr.downcase}.svg")%> alt=<%="#{country.name} Flag"%>>
+          <span class="country-title"><%= country.name.titleize.gsub("-", " ") %></span>
+          <div class=legality-status><%= show_svg('green-check.svg')%> Legal</div>
+          </h3>
+<div class="legal-description">
+  <p>In September 2017 the Bank of Namibia issued a position paper on virtual currencies entitled wherein it declared cryptocurrency exchanges are not allowed and cryptocurrency cannot be accepted as payment for goods and services.
+</p>
+</div>

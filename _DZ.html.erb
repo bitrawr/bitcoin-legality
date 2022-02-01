@@ -1,0 +1,8 @@
+<h3 id="<%= country.abbr %>" href="/<%= country.name %>" class="country-legal">
+          <img class="sitemap-link-flag" src=<%=image_url("country-flags/#{country.abbr.downcase}.svg")%> alt=<%="#{country.name} Flag"%>>
+          <span class="country-title"><%= country.name.titleize.gsub("-", " ") %></span>
+          <div class=legality-status><%= show_svg('red-x.svg')%> Illegal</div>
+          </h3>
+<div class="legal-description">
+  <p>The purchase, sale, use, and holding of so-called virtual currency is prohibited. Virtual currency is that used by internet users via the web. It is characterized by the absence of physical support such as coins, notes, payments by cheque or credit card. Any breach of this provision is punishable in accordance with the laws and regulations in force.</p>
+</div>

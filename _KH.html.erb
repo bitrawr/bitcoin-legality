@@ -1,0 +1,8 @@
+<h3 id="<%= country.abbr %>" href="/<%= country.name %>" class="country-legal">
+          <img class="sitemap-link-flag" src=<%=image_url("country-flags/#{country.abbr.downcase}.svg")%> alt=<%="#{country.name} Flag"%>>
+          <span class="country-title"><%= country.name.titleize.gsub("-", " ") %></span>
+          <div class=legality-status><%= show_svg('green-check.svg')%> Legal / <%= show_svg('red-x.svg')%> Banking ban</div>
+          </h3>
+<div class="legal-description">
+  <p>Cryptocurrencies are not explicitly defined under Cambodian law, therefore are currently legal to trade in the country. The National Bank of Cambodia (NBC) has forbidden banks in Cambodia to accept cryptocurrencies as payment.</p>
+</div>

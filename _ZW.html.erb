@@ -1,0 +1,9 @@
+<h3 id="<%= country.abbr %>" href="/<%= country.name %>" class="country-legal">
+          <img class="sitemap-link-flag" src=<%=image_url("country-flags/#{country.abbr.downcase}.svg")%> alt=<%="#{country.name} Flag"%>>
+          <span class="country-title"><%= country.name.titleize.gsub("-", " ") %></span>
+          <div class=legality-status><%= show_svg('green-check.svg')%> Legal</div>
+          </h3>
+<div class="legal-description">
+  <p>The Reserve Bank Of Zimbabwe is skeptical about bitcoin and has not officially permitted its use. On 5 April 2017 however, BitMari, a Pan-African Blockchain platform got licensed, through its banking partner, AgriBank, to operate in the country.
+</p>
+</div>

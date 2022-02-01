@@ -1,0 +1,8 @@
+<h3 id="<%= country.abbr %>" href="/<%= country.name %>" class="country-legal">
+          <img class="sitemap-link-flag" src=<%=image_url("country-flags/#{country.abbr.downcase}.svg")%> alt=<%="#{country.name} Flag"%>>
+          <span class="country-title"><%= country.name.titleize.gsub("-", " ") %></span>
+          <div class=legality-status><%= show_svg('red-x.svg')%> Illegal</div>
+          </h3>
+<div class="legal-description">
+  <p>On November 20th, 2017 the exchange office issued a public statement in which it declared, "The Office des Changes wishes to inform the general public that the transactions via virtual currencies constitute an infringement of the exchange regulations, liable to penalties and fines provided for by [existing laws] in force.</p>
+</div>

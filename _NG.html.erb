@@ -1,0 +1,9 @@
+<h3 id="<%= country.abbr %>" href="/<%= country.name %>" class="country-legal">
+          <img class="sitemap-link-flag" src=<%=image_url("country-flags/#{country.abbr.downcase}.svg")%> alt=<%="#{country.name} Flag"%>>
+          <span class="country-title"><%= country.name.titleize.gsub("-", " ") %></span>
+          <div class=legality-status><%= show_svg('green-check.svg')%> Legal / <%= show_svg('red-x.svg')%> Banking ban</div>
+          </h3>
+<div class="legal-description">
+<p>As of 17 January 2017, The Central Bank of Nigeria (CBN) has passed a circular to inform all Nigerian banks that bank transactions in bitcoin and other virtual currencies have been banned in Nigeria.</p>
+<p>On 5 February 2021, The Central Bank of Nigeria issued a circular informing financial institutions in Nigeria that sequel to their circular in January 2017, dealing in cryptocurrency or facilitating payment for same remains prohibited and would attract a stiff penalty.</p>
+</div>

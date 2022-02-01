@@ -1,0 +1,9 @@
+<h3 id="<%= country.abbr %>" href="/<%= country.name %>" class="country-legal">
+          <img class="sitemap-link-flag" src=<%=image_url("country-flags/#{country.abbr.downcase}.svg")%> alt=<%="#{country.name} Flag"%>>
+          <span class="country-title"><%= country.name.titleize.gsub("-", " ") %></span>
+          <div class=legality-status><%= show_svg('green-check.svg')%> Legal</div>
+          </h3>
+<div class="legal-description">
+<p>The Central Bank of the UAE does not recognize cryptocurrencies as a legal tender, however, they are legal to trade and transact as there is no prohibition against crypto assets in the UAE.</p>
+<p>New laws in 2020 require persons engaging in crypto-related activities such as offering, issuing, promoting, listing and trading of cryptocurrencies, to be licensed by the Securities and Commodities Authority (SCA)</p>
+</div>

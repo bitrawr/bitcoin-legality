@@ -1,0 +1,9 @@
+<h3 id="<%= country.abbr %>" href="/<%= country.name %>" class="country-legal">
+          <img class="sitemap-link-flag" src=<%=image_url("country-flags/#{country.abbr.downcase}.svg")%> alt=<%="#{country.name} Flag"%>>
+          <span class="country-title"><%= country.name.titleize.gsub("-", " ") %></span>
+          <div class=legality-status><%= show_svg('green-check.svg')%> Legal / <%= show_svg('red-x.svg')%> Banking ban</div>
+          </h3>
+<div class="legal-description">
+<p>Indonesia has banned bitcoin and other cryptocurrencies to be used as legal payment instruments, but are still allowed to be traded in the country.</p>
+  <p>There has been no further attempts by the Government to adopt any regulations governing activities with virtual currencies</p>
+</div>

@@ -1,0 +1,9 @@
+<h3 id="<%= country.abbr %>" href="/<%= country.name %>" class="country-legal">
+          <img class="sitemap-link-flag" src=<%=image_url("country-flags/#{country.abbr.downcase}.svg")%> alt=<%="#{country.name} Flag"%>>
+          <span class="country-title"><%= country.name.titleize.gsub("-", " ") %></span>
+          <div class=legality-status><%= show_svg('green-check.svg')%> Legal</div>
+          </h3>
+<div class="legal-description">
+  <p>The use of cryptocurrencies, as well as mining, is currently legal in Venezuela.</p>
+  <p>With Venezuela's bolivar currency experiencing hyperinflation since 2016, the country has seen wider acceptance of cryptocurrencies like Bitcoin.</p>
+</div>

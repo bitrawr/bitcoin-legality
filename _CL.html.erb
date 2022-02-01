@@ -1,0 +1,9 @@
+<h3 id="<%= country.abbr %>" href="/<%= country.name %>" class="country-legal">
+          <img class="sitemap-link-flag" src=<%=image_url("country-flags/#{country.abbr.downcase}.svg")%> alt=<%="#{country.name} Flag"%>>
+          <span class="country-title"><%= country.name.titleize.gsub("-", " ") %></span>
+          <div class=legality-status><%= show_svg('green-check.svg')%> Legal</div>
+          </h3>
+<div class="legal-description">
+  <p>There are no regulations prohibiting the use of cryptocurrencies in Chile.</p>
+  <p>On November 2021, Chilean Congressman Karim Bianchi <a href="https://www.senado.cl/appsenado/templates/tramitacion/index.php?boletin_ini=14708-03" target="_blank" rel="noopener noreferrer nofollow">introduced a proposal</a> that would recognize and regulate the use of Bitcoin and other cryptocurrencies as legal means of payment.</p>
+</div>

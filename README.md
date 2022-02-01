@@ -18,14 +18,14 @@
   <p align="center">
     project_description
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/alonshvartsman/bitcoin-legality"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://www.bitrawr.com/bitcoin-legality-map">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/alonshvartsman/bitcoin-legality/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/alonshvartsman/bitcoin-legality/issues">Request Feature</a>
   </p>
 </div>
 

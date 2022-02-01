@@ -86,6 +86,7 @@ This is an example of how to list things you need to use the software and how to
 ### How to contribute
 
 1. Go to the [countries directory](https://github.com/alonshvartsman/bitcoin-legality/tree/main/countries)
+
 2. Each country is divided into a file based on its alpha-2 code. Find the alpha-2 code for the country you want to edit
    ```sh
    US = United States
@@ -93,12 +94,15 @@ This is an example of how to list things you need to use the software and how to
    CH = Switzerland
    etc...
    ```
+   
    Here is the [full list](https://www.iban.com/country-codes) of countries and their alpha-2 codes
-3. Make edits inside the
+   
+3. Make edits inside the paragraph tags
    ```sh
    <p>...</p>
    ```
    tags.
+   
 4. Enter your API in `config.js`
    ```js
    const API_KEY = 'ENTER YOUR API';

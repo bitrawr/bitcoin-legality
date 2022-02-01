@@ -64,7 +64,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Help maintain the updated database tracking the world's recognition of Bitcoin: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email`, `email_client`, `project_title`, `project_description`
+Help us maintain an up-to-date database tracking each countries' recognition of Bitcoin: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email`, `email_client`, `project_title`, `project_description`
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -83,13 +83,17 @@ This is an example of how to list things you need to use the software and how to
   npm install npm@latest -g
   ```
 
-### Installation
+### How to contribute
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Go to the [countries directory](https://github.com/alonshvartsman/bitcoin-legality/tree/main/countries)
+2. Find the alpha-2 code for the country you want to edit
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   United States = US
+   El Salvador = SV
+   Switzerland = CH
+   etc.
    ```
+   Here is the [full list](https://www.iban.com/country-codes) of countries and their alpha-2 codes
 3. Install NPM packages
    ```sh
    npm install

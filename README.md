@@ -87,7 +87,7 @@ This is an example of how to list things you need to use the software and how to
 
 1. Go to the [countries directory](https://github.com/alonshvartsman/bitcoin-legality/tree/main/countries)
 
-2. Each country is divided into a file based on its alpha-2 code. Find the alpha-2 code for the country you want to edit
+2. Each country is divided into a file named by its alpha-2 country code (two-letter country codes). Find the alpha-2 code for the country you want to edit
    ```sh
    US = United States
    SV = El Salvador
@@ -97,7 +97,7 @@ This is an example of how to list things you need to use the software and how to
    
    Here is the [full list](https://www.iban.com/country-codes) of countries and their alpha-2 codes
    
-3. Make edits inside the paragraph tags
+3. Once inside the file, make edits inside the paragraph tags
    ```sh
    <p>...</p>
    ```
@@ -113,9 +113,16 @@ This is an example of how to list things you need to use the software and how to
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## Legality tags
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+There are 3 types of legality tags.
+
+1. Legal
+<img src="images/legal.png" alt="Legal" width="80" height="80">
+2. Legal, banking ban
+<img src="images/legal-banking-ban.png" alt="Legal with banking ban" width="80" height="80">
+3. Illegal
+<img src="images/illegal.png" alt="Illegal" width="80" height="80">
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 

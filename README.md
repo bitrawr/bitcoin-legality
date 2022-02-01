@@ -118,11 +118,11 @@ This is an example of how to list things you need to use the software and how to
 There are 3 types of legality tags.
 
 1. Legal
-<img src="images/legal.png" alt="Legal" width="80" height="80">
+<img src="images/legal.png" alt="Legal" width="300px" height="100%">
 2. Legal, banking ban
-<img src="images/legal-banking-ban.png" alt="Legal with banking ban" width="80" height="80">
+<img src="images/legal-banking-ban.png" alt="Legal with banking ban" width="300px" height="100%">
 3. Illegal
-<img src="images/illegal.png" alt="Illegal" width="80" height="80">
+<img src="images/illegal.png" alt="Illegal" width="300px" height="100%">
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 

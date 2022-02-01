@@ -190,4 +190,4 @@ Project Link: [https://github.com/alonshvartsman/bitcoin-legality](https://githu
 [license-shield]: https://img.shields.io/github/license/alonshvartsman/bitcoin-legality.svg?style=for-the-badge
 [license-url]: https://github.com/alonshvartsman/bitcoin-legality/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: images/current-legality-screenshot.png

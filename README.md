@@ -16,7 +16,7 @@
 <h3 align="center">Bitcoin Legality Map</h3>
 
   <p align="center">
-    project_description
+    Tracking the legality of bitcoin globally
     <br />
     <a href="https://github.com/alonshvartsman/bitcoin-legality"><strong>Explore the docs »</strong></a>
     <br />

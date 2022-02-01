@@ -18,10 +18,10 @@
   <p align="center">
     Tracking the legality of bitcoin globally
     <br />
-    <a href="https://github.com/alonshvartsman/bitcoin-legality"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/alonshvartsman/bitcoin-legality/tree/main/countries"><strong>Add/change country legality »</strong></a>
     <br />
     <br />
-    <a href="https://www.bitrawr.com/bitcoin-legality-map">View Demo</a>
+    <a href="https://www.bitrawr.com/bitcoin-legality-map">View Map</a>
     ·
     <a href="https://github.com/alonshvartsman/bitcoin-legality/issues">Report Bug</a>
     ·
@@ -158,7 +158,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/alonshvartsman)
+Alon Shvartsman - [@twitter_handle](https://twitter.com/alonshvartsman)
 
 Project Link: [https://github.com/alonshvartsman/bitcoin-legality](https://github.com/alonshvartsman/bitcoin-legality)
 

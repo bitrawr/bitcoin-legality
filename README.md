@@ -10,7 +10,7 @@
 <br />
 <div align="center">
   <a href="https://www.bitrawr.com/bitcoin-legality-map">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/bitcoin-btc-logo.svg" alt="BTC" width="80" height="80">
   </a>
 
 <h3 align="center">Bitcoin Legality Map</h3>

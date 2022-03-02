@@ -1,0 +1,9 @@
+<h3 id="<%= country.abbr %>" href="/<%= country.name %>" class="country-legal">
+          <img class="sitemap-link-flag" src=<%=image_url("country-flags/#{country.abbr.downcase}.svg")%> alt=<%="#{country.name} Flag"%>>
+          <span class="country-title"><%= country.name.titleize.gsub("-", " ") %></span>
+          <div class=legality-status><%= show_svg('green-check.svg')%> Legal</div>
+          </h3>
+<div class="legal-description">
+  <p>Bitcoin and other cryptocurrencies are not regulated in Australia and are therefore legal to trade and hold.</p>
+  <p>Australia is <a href="https://www.reuters.com/markets/currencies/australia-plans-update-regulatory-framework-payment-systems-2021-12-07/" target="_blank" rel="noopener noreferrer nofollow">currently working</a> on creating a licensing framework for cryptocurrency exchanges.</p>
+</div>

@@ -1,0 +1,9 @@
+<h3 id="<%= country.abbr %>" href="/<%= country.name %>" class="country-legal">
+          <img class="sitemap-link-flag" src=<%=image_url("country-flags/#{country.abbr.downcase}.svg")%> alt=<%="#{country.name} Flag"%>>
+          <span class="country-title"><%= country.name.titleize.gsub("-", " ") %></span>
+          <div class=legality-status><%= show_svg('green-check.svg')%> Legal</div>
+          </h3>
+<div class="legal-description">
+  <p>The Central Bank of Cyprus has stated that bitcoin and other cryptocurrencies are "not illegal, but, at the same time, neither it is subject to control or regulation".</p>
+  <p>Businesses and citizens of Cyprus enjoy a relatively relaxed regulatory cryptocurrency environment with no specific legal or regulatory framework in force.</p>
+</div>

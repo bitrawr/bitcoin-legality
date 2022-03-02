@@ -1,0 +1,9 @@
+<h3 id="<%= country.abbr %>" href="/<%= country.name %>" class="country-legal">
+          <img class="sitemap-link-flag" src=<%=image_url("country-flags/#{country.abbr.downcase}.svg")%> alt=<%="#{country.name} Flag"%>>
+          <span class="country-title"><%= country.name.titleize.gsub("-", " ") %></span>
+          <div class=legality-status><%= show_svg('green-check.svg')%> Legal</div>
+          </h3>
+<div class="legal-description">
+  <p>Bitcoin and other cryptocurrencies are legal to trade and hold in Malta.</p>
+  <p>Malta has been at the forefront of embracing transactions involving bitcoin, consequently being dubbed as "The Blockchain Island". Besides providing for a sophisticated regulatory regime for digital assets, in 2018 Malta also introduced tax guidelines on transactions involving digital assets, including cryptocurrencies.</p>
+</div>

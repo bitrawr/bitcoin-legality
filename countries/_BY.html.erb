@@ -1,0 +1,8 @@
+<h3 id="<%= country.abbr %>" href="/<%= country.name %>" class="country-legal">
+          <img class="sitemap-link-flag" src=<%=image_url("country-flags/#{country.abbr.downcase}.svg")%> alt=<%="#{country.name} Flag"%>>
+          <span class="country-title"><%= country.name.titleize.gsub("-", " ") %></span>
+          <div class=legality-status><%= show_svg('green-check.svg')%> Legal</div>
+          </h3>
+<div class="legal-description">
+  <p>Belarus has legalized cryptocurrency transactions. In December of 2017, the Belarusian government adopted Decree No. 8 <a href="https://president.gov.by/ru/documents/dekret-8-ot-21-dekabrja-2017-g-17716" target="_blank" rel="noopener noreferrer nofollow">“On the Development of Digital Economy,”</a> marking the country’s first formal law governing cryptocurrency and blockchain. The Decree came into force on March 28, 2018.</p>
+</div>

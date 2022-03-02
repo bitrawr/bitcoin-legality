@@ -1,0 +1,9 @@
+<h3 id="<%= country.abbr %>" href="/<%= country.name %>" class="country-legal">
+          <img class="sitemap-link-flag" src=<%=image_url("country-flags/#{country.abbr.downcase}.svg")%> alt=<%="#{country.name} Flag"%>>
+          <span class="country-title"><%= country.name.titleize.gsub("-", " ") %></span>
+          <div class=legality-status><%= show_svg('green-check.svg')%> Legal</div>
+          </h3>
+<div class="legal-description">
+  <p>There are no regulations prohibiting the use of cryptocurrencies in Panama.</p>
+  <p>One day after El Salvador adopted Bitcoin as legal tender, Panamanian Congressman Gabriel Silva <a href="https://twitter.com/gabrielsilva8_7/status/1435015640226615299" target="_blank" rel="noopener noreferrer nofollow">introduced a bill</a> intended to provide "legal, regulatory, and fiscal certainty to the use, holding and issuance of digital value and crypto assets in the Republic of Panama."</p>
+</div>

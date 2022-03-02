@@ -1,0 +1,9 @@
+<h3 id="<%= country.abbr %>" href="/<%= country.name %>" class="country-legal">
+          <img class="sitemap-link-flag" src=<%=image_url("country-flags/#{country.abbr.downcase}.svg")%> alt=<%="#{country.name} Flag"%>>
+          <span class="country-title"><%= country.name.titleize.gsub("-", " ") %></span>
+          <div class=legality-status><%= show_svg('green-check.svg')%> Legal</div>
+          </h3>
+<div class="legal-description">
+  <p>Georgia has quickly emerged as a go-to jurisdiction for bitcoin miners due to an income tax exemption on any profit received from the sale of crypto currency and no legislative restrictions.</p>
+<p>The World Bank estimated in 2018 that at least 200,000 people in Georgia are involved in cryptocurrency mining</p>
+</div>

@@ -1,0 +1,9 @@
+<h3 id="<%= country.abbr %>" href="/<%= country.name %>" class="country-legal">
+          <img class="sitemap-link-flag" src=<%=image_url("country-flags/#{country.abbr.downcase}.svg")%> alt=<%="#{country.name} Flag"%>>
+          <span class="country-title"><%= country.name.titleize.gsub("-", " ") %></span>
+          <div class=legality-status><%= show_svg('green-check.svg')%> Legal</div>
+          </h3>
+<div class="legal-description">
+  <p>The Bank of Russia has repeatedly warned investors that cryptocurrency markets are extremely volatile, and digital currencies are not allowed to be used as a method of payment domestically.</p> 
+  <p>Despite this, Russian President Vladimir Putin has shown acceptance of alternative currencies saying in an <a href="http://kremlin.ru/events/president/news/66920" target="_blank" rel="noopener noreferrer nofollow">2021 interview</a> that cryptocurrency, “has the right to exist and can be used as a means of payment”.</p>
+</div>

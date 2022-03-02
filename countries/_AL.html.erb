@@ -1,0 +1,9 @@
+<h3 id="<%= country.abbr %>" href="/<%= country.name %>" class="country-legal">
+          <img class="sitemap-link-flag" src=<%=image_url("country-flags/#{country.abbr.downcase}.svg")%> alt=<%="#{country.name} Flag"%>>
+          <span class="country-title"><%= country.name.titleize.gsub("-", " ") %></span>
+          <div class=legality-status><%= show_svg('green-check.svg')%> Legal</div>
+          </h3>
+<div class="legal-description">
+  <p>Bitcoin and cryptocurrencies are legal to hold and trade in Albania.</p>
+  <p>Albania regulates cryptocurrencies with Law No. 66/2020 “On Financial Markets based on Distributed Registry Technology” – which specifically regulates the licensing of entities operating in the field of distribution, trading of virtual currencies / digital tokens.</p>
+</div>

@@ -1,0 +1,8 @@
+<h3 id="<%= country.abbr %>" href="/<%= country.name %>" class="country-legal">
+          <img class="sitemap-link-flag" src=<%=image_url("country-flags/#{country.abbr.downcase}.svg")%> alt=<%="#{country.name} Flag"%>>
+          <span class="country-title"><%= country.name.titleize.gsub("-", " ") %></span>
+          <div class=legality-status><%= show_svg('green-check.svg')%> Legal</div>
+          </h3>
+<div class="legal-description">
+  <p>The Central Bank of Malaysia <a href="https://www.bnm.gov.my/-/statement-on-bitcoin" target="_blank" rel="noopener noreferrer nofollow">released a statement</a> in 2014 clarifying that it does not regulate the operations of Bitcoin. Bitcoin is legal to trade although not legal tender.</p>
+</div>

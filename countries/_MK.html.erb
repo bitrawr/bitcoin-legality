@@ -1,0 +1,9 @@
+<h3 id="<%= country.abbr %>" href="/<%= country.name %>" class="country-legal">
+          <img class="sitemap-link-flag" src=<%=image_url("country-flags/#{country.abbr.downcase}.svg")%> alt=<%="#{country.name} Flag"%>>
+          <span class="country-title"><%= country.name.titleize.gsub("-", " ") %></span>
+          <div class=legality-status><%= show_svg('red-x.svg')%> Illegal</div>
+          </h3>
+<div class="legal-description">
+  <p>Macedonia is the only European country so far to have an official ban on cryptocurrencies like bitcoin.</p>
+  <p>In 2014, Dimitar Bogov, Governor of National Bank of Macedonia stated, "In Macedonia, juridical means for cash and non-cash payments are denars. International payments operations are carried out by banks. Therefore, trading and use of Bitcoin is illegal."</p>
+</div>

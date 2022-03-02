@@ -1,0 +1,9 @@
+<h3 id="<%= country.abbr %>" href="/<%= country.name %>" class="country-legal">
+          <img class="sitemap-link-flag" src=<%=image_url("country-flags/#{country.abbr.downcase}.svg")%> alt=<%="#{country.name} Flag"%>>
+          <span class="country-title"><%= country.name.titleize.gsub("-", " ") %></span>
+          <div class=legality-status><%= show_svg('green-check.svg')%> Legal</div>
+          </h3>
+<div class="legal-description">
+  <p>Bitcoin and other cryptocurrencies are not considered legal tender in Finland, however, it is not illegal to trade them.</p>
+  <p>Iceland is also home to some of the largest bitcoin mining facilities due to low energy costs as it provides abundant and clean geothermal energy.</p>
+</div>

@@ -1,0 +1,9 @@
+<h3 id="<%= country.abbr %>" href="/<%= country.name %>" class="country-legal">
+          <img class="sitemap-link-flag" src=<%=image_url("country-flags/#{country.abbr.downcase}.svg")%> alt=<%="#{country.name} Flag"%>>
+          <span class="country-title"><%= country.name.titleize.gsub("-", " ") %></span>
+          <div class=legality-status><%= show_svg('green-check.svg')%> Legal</div>
+          </h3>
+<div class="legal-description">
+  <p>There are no laws that specifically prohibit or regulate the use of bitcoin in Slovenia, therefore it is legal to hold and trade.</p>
+  <p>At the start of 2017, the Financial Administration of Slovenia (FURS) provided some guidelines on taxation for cryptocurrencies.</p>
+</div>

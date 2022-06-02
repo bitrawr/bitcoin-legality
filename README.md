@@ -21,7 +21,7 @@
     <a href="https://github.com/alonshvartsman/bitcoin-legality/tree/main/countries"><strong>Add/change country legality »</strong></a>
     <br />
     <br />
-    <a href="https://www.bitrawr.com/bitcoin-legality-map">View Map</a>
+    <a href="https://www.bitrawr.com/terminal/legality-map">View Map</a>
     ·
     <a href="https://github.com/alonshvartsman/bitcoin-legality/issues">Report Bug</a>
     ·
